@@ -9,6 +9,12 @@ You will also need any text editor or your favourite IDE
 ## Example codes
 ### 00_test
 Basic configuration with one blinking LED to test your environment
+### 01_led-binary-timer
+Simple binary counter with 8 LEDs display
+![01_led-binary-timer_preview](preview/01_led-binary-timer.gif)
+### 02_led-wave
+Make wave with 8 LEDs (same scheme as 01_led-binary-timer)
+![02_led-wave_preview](preview/02_led-wave.gif)
 
 ## Compiling and programming the microcontroller
 There is `deploy.sh` script in every example directory that does all the work:
