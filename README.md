@@ -1,9 +1,11 @@
 # AVR ATmega8 examples
 
 ## Software requirements
-Install libraries required for AVR programming, compiling and deploying``` 
+Install libraries required for AVR programming, compiling and deploying
+``` 
 sudo apt install gcc gcc-avr avr-libc binutils-avr avrdude
 ```
+
 You will also need any text editor or your favourite IDE
 
 ## Example codes
@@ -11,12 +13,18 @@ You will also need any text editor or your favourite IDE
 Basic configuration with one blinking LED to test your environment
 ### 01_led-binary-timer
 Simple binary counter with 8 LEDs display
+
 ![01_led-binary-timer_preview](preview/01_led-binary-timer.gif)
+
 ### 02_led-wave
 Make wave with 8 LEDs (same scheme as 01_led-binary-timer)
+
 ![02_led-wave_preview](preview/02_led-wave.gif)
 
-## Compiling and programming the microcontroller
+### 03_lcd-hd44780
+Initialization and usage of liquid-crystal display HD44780 with FizzBuzz as example
+
+## Compiling and programming the ATmega8
 There is `deploy.sh` script in every example directory that does all the work:
 ```
 # Compile code to Executable and Linkable Format  
