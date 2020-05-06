@@ -1,4 +1,4 @@
-# AVR ATmega8 examples
+# AVR ATmega8 cookbook
 
 ## Software requirements
 Install libraries required for AVR programming, compiling and deploying
@@ -14,12 +14,12 @@ Basic configuration with one blinking LED to test your environment
 ### 01_led-binary-timer
 Simple binary counter with 8 LEDs display
 
-![01_led-binary-timer_preview](preview/01_led-binary-timer.gif)
+![01_led-binary-timer_preview](previews/01_led-binary-timer.gif)
 
 ### 02_led-wave
 Make wave with 8 LEDs (same scheme as 01_led-binary-timer)
 
-![02_led-wave_preview](preview/02_led-wave.gif)
+![02_led-wave_preview](previews/02_led-wave.gif)
 
 ### 03_lcd-hd44780
 Initialization and usage of liquid-crystal display HD44780 with FizzBuzz as example
